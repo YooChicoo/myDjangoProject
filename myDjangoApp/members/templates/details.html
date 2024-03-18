@@ -1,7 +1,10 @@
-<!DOCTYPE html>
-<html>
+{% extends "master.html" %}
 
-<body>
+{% block title %}
+<h1>My Django App</h1>
+{% endblock %}
+
+{% block content %}
 
 <h1>{{ mymember.firstname }} {{ mymember.lastname }}</h1>
   
@@ -10,5 +13,4 @@
 
 <p>Back to <a href="/members">Members</a></p>
 
-</body>
-</html>
+{% endblock %}

@@ -1,8 +1,12 @@
-<!DOCTYPE html>
-<html>
-<body>
+{% extends "master.html" %}
 
-<h1>Members</h1>
+{% block title %}
+<h1>My Django App</h1>
+{% endblock %}
+
+{% block content %}
+
+<h2>Members</h2>
   
 <ul>
   {% for x in mymembers %}
@@ -10,5 +14,4 @@
   {% endfor %}
 </ul>
 
-</body>
-</html>
+{% endblock %}
