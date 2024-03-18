@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  {% include "mymenu.html" with me="TOBIAS" sponsor="W3SCHOOLS" %}
+
+  <h1>Welcome</h1>
+  
+  <p>This is my web site.</p>
+  
+  <p>Check out mymenu.html to see the HTML content of the include.</p>
+
+
+{% for x in fruits %}
+  <h1>{{ x }}</h1>
+{% endfor %}
+
+<p>In views.py you can see what the fruits variable looks like.</p>
+
+
+<p>This page contains a footer in a template.</p>
+
+{% include 'footer.html' %} 
+
+<p>Check out the two templates to see what they look like, and views.py to see the reference to the child template.</p>
+
+
+</body>
+</html>
