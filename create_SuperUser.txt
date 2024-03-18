@@ -1,4 +1,12 @@
+YooChicoo
+
+yooochicoo@gmail.com
+
+1969Helder
+
+############################
 Create User
+
 To be able to log into the admin application, we need to create a user.
 
 This is done by typing this command in the command view:
